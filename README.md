@@ -1,0 +1,10 @@
+build 编译缓存
+install 下载安装各种包及源码编译后产生的文件
+log 日志
+src 存放源码处
+.xml 依赖库，环境等配置
+setup.py 源文件名称，节点等
+launch 多节点启动
+resource 资源
+test 测试文件
+msg 消息接口
