@@ -26,6 +26,7 @@ setup(
         'console_scripts': [
             'demo01_talker_str_py = py01_topic.demo01_talker_str_py:main',
             'demo1_listener_str_py = py01_topic.demo1_listener_str_py:main',
+            'stereo_depth_publisher = py01_topic.stereo_depth_publisher:main',
         ],
     },
 )

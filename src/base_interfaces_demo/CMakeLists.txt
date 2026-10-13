@@ -10,6 +10,16 @@ find_package(ament_cmake REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+#为接口文件生成C++代码
+rosidl_generate_interfaces(${PROJECT_NAME}
+  # "msg/Num.msg"
+  "msg/Hit.msg"
+  # "srv/AddTwoInts.srv"
+  # "action/Fibonacci.action"
+  # DEPENDENCIES builtin_interfaces
+  # "msg/Hit.msg"
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
